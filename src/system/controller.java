@@ -1,4 +1,4 @@
-package hedgbuild.apiSpring.controllers;
+package hedgbuild.apiSpring;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-public class HospitalController {
+public class controller {
 
     @GetMapping("/patients")
     public String getAllPatients() {
